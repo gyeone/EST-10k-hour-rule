@@ -1,0 +1,11 @@
+@media (max-width: 780px) {
+    body {
+        margin: 4rem auto 4.8rem;
+    }
+
+    /* blocks */
+
+    .title {
+        height: 130px;
+    }
+}

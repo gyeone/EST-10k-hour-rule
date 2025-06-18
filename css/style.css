@@ -1,0 +1,207 @@
+:root {
+    /* color */
+    --color-white: #fff;
+    --color-violet: #5b2386;
+    --color-yellow: #f5df4d;
+    --btn-color: #fcee21;
+    --input-color: #babcbe;
+    /* font size */
+    --btn-pc-size: 24px;
+    --btn-mobile-size: 14px;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    border: 0;
+    clip: rect(0 0 0 0);
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "GmarketSansMedium";
+    text-align: center;
+    margin: 12rem auto 10.6rem;
+    max-width: calc(100% - 3rem);
+    color: var(--color-white);
+    background-color: var(--color-violet);
+}
+
+/* blocks */
+
+.title {
+    position: relative;
+    height: 265px;
+}
+
+.section01 {
+    margin: 5.2rem 0 10rem;
+}
+
+.section02 {
+    margin-bottom: 14.2rem;
+}
+
+.form {
+    font-size: var(--btn-pc-size);
+}
+
+.button {
+    font-family: "GmarketSansBold";
+    height: 64px;
+    padding: 0 5rem 0;
+    font-size: var(--btn-pc-size);
+    color: var(--color-violet);
+    background-color: var(--btn-color);
+    border-radius: 12px;
+}
+
+.dialog {
+    /* display: none; */
+    font-family: "OTEnjoystoriesBA";
+    background-color: var(--color-white);
+    color: var(--color-violet);
+    padding: 8rem 0;
+    width: 800px;
+    height: 816px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 4px 4px 30px 0px #00000026;
+}
+
+/* element */
+
+.title__img {
+    position: absolute;
+    width: 221.6px;
+    height: 225px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title__text-img {
+    position: absolute;
+    height: 112px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section01__q {
+    font-family: "OTEnjoystoriesBA";
+    font-size: 3.6rem;
+    color: var(--color-yellow);
+}
+
+.section01__dfn {
+    margin: 8rem auto 0;
+    font-size: 1.8rem;
+    background: url("../images/quotes.png") no-repeat center;
+    line-height: 2.8rem;
+}
+
+.form__expert__input,
+.form_hour__input {
+    font-family: "GmarketSansMedium";
+    font-size: var(--btn-pc-size);
+    text-align: center;
+    padding: 1.6rem 0;
+    border-radius: 8px;
+    border: none;
+    width: 228px;
+    height: 56px;
+    color: var(--input-color);
+}
+
+.form__button {
+    position: relative;
+    margin-top: 12rem;
+}
+
+.section03__result {
+    font-size: 2.4rem;
+}
+
+.section03__training-and-share {
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+    margin: 12rem auto;
+}
+
+.footer__logo {
+    width: 168px;
+    height: 36px;
+    margin-bottom: 2rem;
+}
+
+.footer__copyright {
+    font-size: 1.2rem;
+    font-family: "Noto Sans KR";
+    line-height: 1.4rem;
+}
+
+.dialog__title {
+    font-size: 9.6rem;
+    margin-bottom: 1.4rem;
+}
+
+.dialog__content {
+    font-size: 3.6rem;
+}
+
+.dialog__licat {
+    width: 438px;
+    height: 342px;
+    margin: 4rem 0 6rem;
+}
+
+/* modifier */
+
+.section01__dfn--dfn {
+    font-family: "GmarketSansBold";
+    font-size: 2.4rem;
+}
+
+.line-height--margin {
+    margin-bottom: 2rem;
+}
+
+.form__button--size {
+    width: 567px;
+}
+
+.form__button-img--size {
+    position: absolute;
+    top: 1.4rem;
+    width: 64px;
+    height: 72px;
+}
+
+.section03__result--strong {
+    font-family: "GmarketSansBold";
+    font-size: 7.2rem;
+}
+
+.button__training--size {
+    width: 365px;
+}
+
+.button__share--color-size {
+    width: 193px;
+    background-color: var(--color-white);
+}
+
+.button__close--shadow-size {
+    box-shadow: 2px 4px 10px 0px #00000026;
+    width: 508px;
+}

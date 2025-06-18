@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/reset.css" />
+        <link rel="stylesheet" href="./css/font.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./css/mobile.css" />
+        <title>1만 시간의 법칙</title>
+    </head>
+    <body>
+        <header>
+            <h1 class="title">
+                <img class="title__img" src="./images/clock.png" alt="" />
+                <img
+                    class="title__text-img"
+                    src="./images/title.png"
+                    alt="1만 시간의 법칙"
+                />
+            </h1>
+        </header>
+        <main>
+            <section class="section01">
+                <h2 class="sr-only">1만 시간의 법칙에 대한 인용문과 정의</h2>
+                <q class="section01__q"
+                    >“연습은 어제의 당신보다 당신을 더 낫게 만든다.”</q
+                >
+                <p class="section01__dfn">
+                    <dfn class="section01__dfn--dfn">1만 시간의 법칙</dfn
+                    >은<br />어떤 분야의 전문가가 되기 위해서는<br />최소한 1만
+                    시간의 훈련이 필요하다는 법칙이다.
+                </p>
+            </section>
+            <section class="section02">
+                <h2 class="sr-only">
+                    어떤 분야의 전문가가 될 것인지 매일 하루에 몇 시간씩 훈련할
+                    건지 입력하는 폼
+                </h2>
+                <form class="form" action="">
+                    <p class="form__expert line-height--margin">
+                        나는
+                        <input
+                            class="form__expert__input"
+                            type="text"
+                            placeholder="예)프로그래밍"
+                        />
+                        전문가가 될 것이다.
+                    </p>
+                    <p class="form__hour">
+                        그래서 앞으로 매일 하루에
+                        <input
+                            class="form_hour__input"
+                            type="text"
+                            placeholder="예)5시간"
+                        />
+                        시간씩 훈련할 것이다.
+                    </p>
+                    <div class="form__button">
+                        <button class="button form__button--size">
+                            나는 며칠 동안 훈련을 해야 1만 시간이 될까?
+                        </button>
+                        <img
+                            class="form__button-img--size"
+                            src="./images/click.png"
+                            alt=""
+                        />
+                    </div>
+                </form>
+            </section>
+            <section class="section03">
+                <h2 class="sr-only">결과 보기</h2>
+                <p class="section03__result line-height--margin">
+                    당신은
+                    <strong class="section03__result--strong"
+                        >프로그래밍</strong
+                    >
+                    전문가가 되기 위해서
+                </p>
+                <br />
+                <p class="section03__result">
+                    대략
+                    <strong class="section03__result--strong">5110</strong>
+                    일이상 훈련하셔야 합니다! :)
+                </p>
+
+                <div class="section03__training-and-share">
+                    <button class="button button__training--size">
+                        훈련하러 가기 GO! GO!
+                    </button>
+                    <button class="button button__share--color-size">
+                        공유하기
+                    </button>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <img
+                class="footer__logo"
+                src="./images/logo.png"
+                alt="위니브 로고"
+            />
+            <p class="footer__copyright">
+                본 서비스 내 이미지 및 콘텐츠의 저작권은 주식회사 위니브에
+                있습니다.
+                <br />
+                수정 및 재배포, 무단 도용 시 법적인 문제가 발생할 수 있습니다.
+            </p>
+        </footer>
+        <dialog class="dialog">
+            <h2 class="dialog__title">화이팅!!♥♥♥</h2>
+            <p class="dialog__content">당신의 꿈을 응원합니다!</p>
+            <img
+                class="dialog__licat"
+                src="./images/licat.png"
+                alt="응원하는 라이캣 캐릭터"
+            />
+            <button class="button button__close--shadow-size">
+                종료하고 진짜 훈련하러 가기 GO!GO!
+            </button>
+        </dialog>
+    </body>
+</html>
