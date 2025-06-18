@@ -27,6 +27,9 @@ html {
 }
 
 body {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
     font-family: "GmarketSansMedium";
     text-align: center;
     margin: 12rem auto 10.6rem;
@@ -62,10 +65,11 @@ body {
     color: var(--color-violet);
     background-color: var(--btn-color);
     border-radius: 12px;
+    box-shadow: 2px 4px 10px 0px #00000026;
 }
 
 .dialog {
-    /* display: none; */
+    display: none;
     font-family: "OTEnjoystoriesBA";
     background-color: var(--color-white);
     color: var(--color-violet);
@@ -105,7 +109,8 @@ body {
 .section01__dfn {
     margin: 8rem auto 0;
     font-size: 1.8rem;
-    background: url("../images/quotes.png") no-repeat center;
+    background: url("../images/quotes.png") no-repeat center / contain;
+    width: 485px;
     line-height: 2.8rem;
 }
 
@@ -183,6 +188,8 @@ body {
 .form__button-img--size {
     position: absolute;
     top: 1.4rem;
+    margin-left: 7px;
+
     width: 64px;
     height: 72px;
 }
@@ -201,7 +208,7 @@ body {
     background-color: var(--color-white);
 }
 
-.button__close--shadow-size {
-    box-shadow: 2px 4px 10px 0px #00000026;
+.button__close--size {
     width: 508px;
+    padding: 0 4.8rem 0 5rem;
 }

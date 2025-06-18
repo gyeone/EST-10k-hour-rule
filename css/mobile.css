@@ -8,4 +8,157 @@
     .title {
         height: 130px;
     }
+
+    .section01 {
+        margin: 3.2rem 0 6rem;
+    }
+
+    .section02 {
+        margin-bottom: 6.8rem;
+    }
+
+    .form {
+        font-size: var(--btn-mobile-size);
+    }
+
+    .button {
+        padding: 0 3.8rem 0;
+        font-size: var(--btn-mobile-size);
+    }
+
+    .line-break {
+        display: block;
+    }
+
+    .dialog {
+        display: none;
+        padding: 4rem 0 4.2rem;
+        width: 330px;
+        height: 500px;
+    }
+
+    /* element */
+
+    .title__img {
+        width: 128.65px;
+        height: 130px;
+    }
+    .title__text-img {
+        width: 278px;
+        height: 54.94px;
+    }
+
+    .section01__q {
+        font-size: 2.2rem;
+    }
+
+    .section01__dfn {
+        margin: 3.2rem auto 0;
+        font-size: 1.4rem;
+        width: 330px;
+        line-height: 2.2rem;
+    }
+
+    .form__expert__input,
+    .form_hour__input {
+        font-size: var(--btn-mobile-size);
+        padding: 1.2rem 0;
+        width: 156px;
+        height: 38px;
+    }
+
+    .form__button {
+        position: relative;
+        padding: 0 3.8rem 0;
+        margin-top: 8rem;
+    }
+
+    .section03__result {
+        font-size: 1.2rem;
+    }
+
+    .section03__training-and-share {
+        gap: 0.8rem;
+        margin: 5.2rem auto 6rem;
+    }
+
+    .footer__logo {
+        width: 125px;
+        height: 28px;
+        margin-bottom: 1.2rem;
+    }
+
+    .footer__copyright {
+        font-size: 0.9rem;
+        line-height: 1.1rem;
+    }
+
+    .dialog__title {
+        font-size: 6.4rem;
+        margin-bottom: 1rem;
+    }
+
+    .dialog__heart {
+        display: none;
+    }
+
+    .dialog__licat {
+        width: 240px;
+        height: 188px;
+        margin: 2.4rem 0 2.4rem;
+    }
+
+    /* modifier */
+
+    .section01__dfn--dfn {
+        font-family: "GmarketSansBold";
+        font-size: 1.4rem;
+    }
+
+    .line-height--margin {
+        margin-bottom: 1.2rem;
+    }
+
+    .mobile-line-height--margin-12 {
+        margin-bottom: 1.2rem;
+    }
+
+    .mobile-line-height--margin-16 {
+        margin-bottom: 1.6rem;
+    }
+
+    .form__button--size {
+        width: 240px;
+        height: 72px;
+    }
+
+    .form__button-img--size {
+        position: absolute;
+        top: 4rem;
+        margin-left: 4px;
+        width: 43px;
+        height: 48px;
+    }
+
+    .section03__result--strong {
+        font-size: 2.4rem;
+    }
+
+    .button__training--size {
+        width: 203px;
+        height: 46px;
+        padding: 0 2.4rem 0;
+    }
+
+    .button__share--color-size {
+        width: 102px;
+        height: 46px;
+        padding: 0 2.4rem 0;
+    }
+
+    .button__close--size {
+        width: 240px;
+        height: 72px;
+        padding: 0 4.45rem 0;
+    }
 }
