@@ -57,10 +57,15 @@ mobile.css | 모바일용 스타일이 담긴 곳입니다. |
 reset.css | User Agent Stylesheet를 리셋해주는 파일입니다. <br> 에릭 마이어의 reset css를 사용하여 모든 요소의 마진, 패딩을 0으로 만들고, 기본 서식을 제거해 주었습니다.|
 style.css | PC 스타일 위주로 담겨 있으며, 모바일용 스타일을 제외한 모든 스타일이 포함된 곳입니다. |
 ## 📖 구현 화면
+ __📍 브레이크 포인트 기준: 가로 너비 기반 미디어 쿼리 780px__
 ### 🖥️ 데스크톱 버전
+ * __화면 너비가 781px 이상일 때 보여질 화면입니다.__   
+![image](https://github.com/user-attachments/assets/43801923-2285-4c9f-be73-35a4de75ecae)
 ### 📱 모바일 버전
+ * __화면 너비가 780px 이하일 때 보여질 화면입니다.__   
+![image](https://github.com/user-attachments/assets/bcf64d59-44c6-426e-8ed4-d2d7d5c33b45)
 ### 📤 오픈 그래프 프로토콜 구현
-* 카카오톡 링크 공유 화면   
+* __카카오톡 링크 공유 화면__   
 ![image](https://github.com/user-attachments/assets/b2033465-fd87-433f-a106-09e07e9af128)
 ## 👨‍💻 개발자
   __백기연__
