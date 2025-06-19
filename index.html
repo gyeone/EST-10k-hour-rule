@@ -12,6 +12,20 @@
             name="description"
             content="매일 하루에 몇 시간씩, 며칠 동안 훈련을 해야 1만 시간이 될까?"
         />
+        <meta property="og:title" content="1만 시간의 법칙" />
+        <meta property="og:type" content="Website" />
+        <meta
+            property="og:url"
+            content="https://gyeone.github.io/EST-10k-hour-rule/"
+        />
+        <meta
+            property="og:image"
+            content="https://gyeone.github.io/EST-10k-hour-rule/"
+        />
+        <meta
+            property="og:description"
+            content="매일 하루에 몇 시간씩, 며칠 동안 훈련을 해야 1만 시간이 될까?"
+        />
         <link rel="stylesheet" href="./css/reset.css" />
         <link rel="stylesheet" href="./css/font.css" />
         <link rel="stylesheet" href="./css/style.css" />
@@ -47,26 +61,30 @@
                     건지 입력하는 폼
                 </h2>
                 <form class="form" action="">
-                    <p class="form__expert line-height--margin">
+                    <label class="form__expert line-height--margin">
                         나는
                         <input
+                            name="전문가 분야"
                             class="form__expert__input"
                             type="text"
                             placeholder="예)프로그래밍"
+                            required
                         />
                         전문가가 될 것이다.
-                    </p>
-                    <p class="form__hour">
+                    </label>
+                    <label class="form__hour">
                         <span class="line-break mobile-line-height--margin-12"
                             >그래서 앞으로 매일 하루에</span
                         >
                         <input
+                            name="훈련 시간"
                             class="form_hour__input"
                             type="text"
                             placeholder="예)5시간"
+                            required
                         />
                         시간씩 훈련할 것이다.
-                    </p>
+                    </label>
                     <div class="form__button">
                         <button class="button form__button--size">
                             <span class="line-break"
@@ -101,10 +119,13 @@
                 </p>
 
                 <div class="section03__training-and-share">
-                    <button class="button button__training--size">
+                    <button type="button" class="button button__training--size">
                         훈련하러 가기 GO! GO!
                     </button>
-                    <button class="button button__share--color-size">
+                    <button
+                        type="button"
+                        class="button button__share--color-size"
+                    >
                         공유하기
                     </button>
                 </div>
@@ -133,7 +154,7 @@
                 src="./images/licat.png"
                 alt="응원하는 라이캣 캐릭터"
             />
-            <button class="button button__close--size">
+            <button type="button" class="button button__close--size">
                 <span class="line-break">종료하고 진짜</span> 훈련하러 가기
                 GO!GO!
             </button>

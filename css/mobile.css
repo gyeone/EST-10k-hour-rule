@@ -32,9 +32,9 @@
 
     .dialog {
         display: none;
-        padding: 4rem 0 4.2rem;
         width: 330px;
         height: 500px;
+        padding: 4rem 0 4.2rem;
     }
 
     /* element */
@@ -53,22 +53,23 @@
     }
 
     .section01__dfn {
-        margin: 3.2rem auto 0;
         font-size: 1.4rem;
         width: 330px;
+        margin: 3.2rem auto 0;
         line-height: 2.2rem;
     }
 
     .form__expert__input,
     .form_hour__input {
         font-size: var(--btn-mobile-size);
-        padding: 1.2rem 0;
         width: 156px;
         height: 38px;
+        padding: 1.2rem 0;
     }
 
     .form__button {
         position: relative;
+        height: 88px;
         padding: 0 3.8rem 0;
         margin-top: 8rem;
     }
@@ -130,14 +131,16 @@
     .form__button--size {
         width: 240px;
         height: 72px;
+        top: 36px;
     }
 
     .form__button-img--size {
         position: absolute;
-        top: 4rem;
-        margin-left: 4px;
         width: 43px;
         height: 48px;
+        bottom: 0;
+        left: calc(50% + 120px);
+        margin-left: 4px;
     }
 
     .section03__result--strong {
