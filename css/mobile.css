@@ -7,6 +7,7 @@
 
     .title {
         height: 130px;
+        background-size: 128.65px 130px;
     }
 
     .section01 {
@@ -32,6 +33,7 @@
 
     .dialog {
         display: none;
+        top: -300px;
         width: 330px;
         height: 500px;
         padding: 4rem 0 4.2rem;
@@ -39,10 +41,6 @@
 
     /* element */
 
-    .title__img {
-        width: 128.65px;
-        height: 130px;
-    }
     .title__text-img {
         width: 278px;
         height: 54.94px;
@@ -59,12 +57,12 @@
         line-height: 2.2rem;
     }
 
-    .form__expert__input,
-    .form_hour__input {
+    .form__input {
         font-size: var(--btn-mobile-size);
         width: 156px;
         height: 38px;
         padding: 1.2rem 0;
+        margin: 0 0.8rem 0;
     }
 
     .form__button {
@@ -116,10 +114,6 @@
         font-size: 1.4rem;
     }
 
-    .line-height--margin {
-        margin-bottom: 1.2rem;
-    }
-
     .mobile-line-height--margin-12 {
         margin-bottom: 1.2rem;
     }
@@ -153,7 +147,7 @@
         padding: 0 2.4rem 0;
     }
 
-    .button__share--color-size {
+    .button__share--size {
         width: 102px;
         height: 46px;
         padding: 0 2.4rem 0;

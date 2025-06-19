@@ -40,6 +40,8 @@ body {
 .title {
     position: relative;
     height: 265px;
+    background: url("../images/clock.png") no-repeat center;
+    background-size: 221.6px 225px;
 }
 
 .section01 {
@@ -67,6 +69,8 @@ body {
 
 .dialog {
     display: none;
+    position: relative;
+    top: -600px;
     font-family: "OTEnjoystoriesBA";
     width: 800px;
     height: 816px;
@@ -79,15 +83,6 @@ body {
 }
 
 /* element */
-
-.title__img {
-    position: absolute;
-    width: 221.6px;
-    height: 225px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
 .title__text-img {
     position: absolute;
@@ -116,16 +111,20 @@ body {
     display: block;
 }
 
-.form__expert__input,
-.form_hour__input {
+.form__input {
     font-family: "GmarketSansMedium";
     font-size: var(--btn-pc-size);
     text-align: center;
     width: 228px;
     height: 56px;
     padding: 1.6rem 0;
+    margin: 0 2rem;
     border-radius: 8px;
     border: none;
+    color: var(--input-color);
+}
+
+.form__input::placeholder {
     color: var(--input-color);
 }
 
@@ -133,7 +132,6 @@ body {
     position: relative;
     height: 86px;
     margin-top: 12rem;
-    /* padding: 0; */
 }
 
 .section03__result {
@@ -148,8 +146,6 @@ body {
 }
 
 .footer__logo {
-    width: 168px;
-    height: 36px;
     margin-bottom: 2rem;
 }
 
@@ -181,7 +177,7 @@ body {
     font-size: 2.4rem;
 }
 
-.line-height--margin {
+.line-height--margin-20 {
     margin-bottom: 2rem;
 }
 
@@ -205,14 +201,19 @@ body {
 .section03__result--strong {
     font-family: "GmarketSansBold";
     font-size: 7.2rem;
+    vertical-align: -20%;
+    margin: 0 1.2rem;
 }
 
 .button__training--size {
     width: 365px;
 }
 
-.button__share--color-size {
+.button__share--size {
     width: 193px;
+}
+
+.button__white {
     background-color: var(--color-white);
 }
 

@@ -35,7 +35,7 @@
     <body>
         <header>
             <h1 class="title">
-                <img class="title__img" src="./images/clock.png" alt="" />
+                <!-- <img class="title__img" src="./images/clock.png" alt="" /> -->
                 <img
                     class="title__text-img"
                     src="./images/title.png"
@@ -61,32 +61,32 @@
                     건지 입력하는 폼
                 </h2>
                 <form class="form">
-                    <label class="form__expert line-height--margin">
+                    <label
+                        class="form__expert line-height--margin-20 mobile-line-height--margin-12"
+                    >
                         나는
                         <input
                             name="전문가 분야"
-                            class="form__expert__input"
+                            class="form__input"
                             type="text"
                             placeholder="예)프로그래밍"
                             required
-                        />
-                        전문가가 될 것이다.
+                        />전문가가 될 것이다.
                     </label>
                     <label class="form__hour">
-                        <span class="line-break mobile-line-height--margin-12"
-                            >그래서 앞으로 매일 하루에</span
-                        >
+                        <span class="line-break mobile-line-height--margin-12">
+                            그래서 앞으로 매일 하루에
+                        </span>
                         <input
                             name="훈련 시간"
-                            class="form_hour__input"
+                            class="form__input"
                             type="number"
                             placeholder="예)5시간"
                             required
-                        />
-                        시간씩 훈련할 것이다.
+                        />시간씩 훈련할 것이다.
                     </label>
                     <div class="form__button">
-                        <button class="button form__button--size">
+                        <button type="submit" class="button form__button--size">
                             <span class="line-break"
                                 >나는 며칠 동안 훈련을 해야</span
                             >
@@ -103,15 +103,14 @@
             <section class="section03">
                 <h2 class="sr-only">결과 보기</h2>
                 <p
-                    class="section03__result line-height--margin mobile-line-height--margin-16"
+                    class="section03__result line-height--margin-20 mobile-line-height--margin-16"
                 >
                     당신은
-                    <strong class="section03__result--strong"
-                        >프로그래밍</strong
+                    <strong class="section03__result--strong">
+                        프로그래밍</strong
                     >
                     전문가가 되기 위해서
                 </p>
-                <br />
                 <p class="section03__result">
                     대략
                     <strong class="section03__result--strong">5110</strong>
@@ -124,7 +123,7 @@
                     </button>
                     <button
                         type="button"
-                        class="button button__share--color-size"
+                        class="button button__share--size button__white"
                     >
                         공유하기
                     </button>
@@ -132,11 +131,7 @@
             </section>
         </main>
         <footer class="footer">
-            <img
-                class="footer__logo"
-                src="./images/logo.png"
-                alt="위니브 로고"
-            />
+            <img class="footer__logo" src="./images/logo-m.png" alt="" />
             <p class="footer__copyright">
                 본 서비스 내 이미지 및 콘텐츠의 저작권은 주식회사 위니브에
                 있습니다.
