@@ -43,7 +43,7 @@
  ┃ ┣ 📜favicon.ico
  ┃ ┣ 📜licat.png
  ┃ ┣ 📜loading.png
- ┃ ┣ 📜logo.png
+ ┃ ┣ 📜logo-m.png
  ┃ ┣ 📜og-image.png
  ┃ ┣ 📜quotes.png
  ┃ ┗ 📜title.png
@@ -56,6 +56,12 @@ font.css | 웹 폰트가 담긴 곳입니다. |
 mobile.css | 모바일용 스타일이 담긴 곳입니다. |
 reset.css | User Agent Stylesheet를 리셋해주는 파일입니다. <br> 에릭 마이어의 reset css를 사용하여 모든 요소의 마진, 패딩을 0으로 만들고, 기본 서식을 제거해 주었습니다.|
 style.css | PC 스타일 위주로 담겨 있으며, 모바일용 스타일을 제외한 모든 스타일이 포함된 곳입니다. |
+## 📖 구현 화면
+### 🖥️ 데스크톱 버전
+### 📱 모바일 버전
+### 📤 오픈 그래프 프로토콜 구현
+* 카카오톡 링크 공유 화면   
+![image](https://github.com/user-attachments/assets/b2033465-fd87-433f-a106-09e07e9af128)
 ## 👨‍💻 개발자
   __백기연__
 ## 💭 개발하면서 느낀점
