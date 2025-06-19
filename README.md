@@ -44,6 +44,7 @@
  ┃ ┣ 📜licat.png
  ┃ ┣ 📜loading.png
  ┃ ┣ 📜logo.png
+ ┃ ┣ 📜og-image.png
  ┃ ┣ 📜quotes.png
  ┃ ┗ 📜title.png
  ┗ 📜README.md
