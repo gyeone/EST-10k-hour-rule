@@ -38,15 +38,6 @@
  ┃ ┣ 📜reset.css
  ┃ ┗ 📜style.css
  ┣ 📂images
- ┃ ┣ 📜click.png
- ┃ ┣ 📜clock.png
- ┃ ┣ 📜favicon.ico
- ┃ ┣ 📜licat.png
- ┃ ┣ 📜loading.png
- ┃ ┣ 📜logo-m.png
- ┃ ┣ 📜og-image.png
- ┃ ┣ 📜quotes.png
- ┃ ┗ 📜title.png
  ┗ 📜README.md
 ```
 ### 📂 css 폴더 구조 설명
