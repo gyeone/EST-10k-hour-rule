@@ -36,6 +36,9 @@ body {
     background-color: var(--color-violet);
 }
 
+/* px 단위: width, height 와 같이 고정된 너비와 높이는 px로 선택  */
+/* 나머지 rem 단위 */
+
 /* blocks */
 
 .title {
@@ -64,22 +67,22 @@ body {
     font-size: var(--btn-pc-size);
     color: var(--color-violet);
     background-color: var(--btn-color);
-    border-radius: 12px;
+    border-radius: 1.2rem;
     box-shadow: 2px 4px 10px 0px #00000026;
 }
 
 .dialog {
     display: none;
     position: relative;
-    top: -600px;
     font-family: "OTEnjoystoriesBA";
     width: 800px;
     height: 816px;
+    top: -60rem;
     padding: 8rem 0;
     color: var(--color-violet);
     background-color: var(--color-white);
     border: none;
-    border-radius: 20px;
+    border-radius: 2rem;
     box-shadow: 4px 4px 30px 0px #00000026;
 }
 
@@ -120,7 +123,7 @@ body {
     height: 56px;
     padding: 1.6rem 0;
     margin: 0 2rem;
-    border-radius: 8px;
+    border-radius: 0.8rem;
     border: none;
     color: var(--input-color);
 }
@@ -185,7 +188,7 @@ body {
 .form__button--size {
     position: absolute;
     width: 567px;
-    top: 32px;
+    top: 3.2rem;
     left: 50%;
     transform: translate(-50%, -50%);
 }

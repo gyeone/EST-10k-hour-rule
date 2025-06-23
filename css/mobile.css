@@ -33,9 +33,9 @@
 
     .dialog {
         display: none;
-        top: -300px;
         width: 330px;
         height: 500px;
+        top: -30rem;
         padding: 4rem 0 4.2rem;
     }
 
@@ -125,7 +125,7 @@
     .form__button--size {
         width: 240px;
         height: 72px;
-        top: 36px;
+        top: 3.6rem;
     }
 
     .form__button-img--size {
@@ -134,7 +134,7 @@
         height: 48px;
         bottom: 0;
         left: calc(50% + 120px);
-        margin-left: 4px;
+        margin-left: 0.4rem;
     }
 
     .section03__result--strong {
